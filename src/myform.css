@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+#divForm{
+position:absolute;
+left:20%;
+height:100%;
+width:60%;
+ background-color:white;
+ border: 20px solid rgb (17, 5, 5);
+top: 10%;
+}
+#divForm p{
+    text-align: center;
+}
+h2{
+
+    text-align: center;
+}
+
+label{
+    display: inline;
+}
+form{
+    width: 100%;
+
+    border-radius: 0.5%;
+    display: flex;
+    flex-direction: column;
+z-index: 1;
+left: 30%;
+}
+.row{
+    padding: 40px;
+}
+
+form div{
+    display: flex;
+       
+    align-content: space-around
+  
+}
+
+ input{
+   
+     padding: 10px 10px 10px 10px;
+     width: 80%;
+}
+button{
+    margin: 40%;
+    margin-bottom: 20%;
+}
+#child{
+   margin-top: 3% ;
+width: 100%;
+display: flex;
+flex-direction: column
+}
+#child div{
+    padding: 20px;
+}
